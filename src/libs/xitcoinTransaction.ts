@@ -6,8 +6,8 @@ export const XITCOIN = Object.freeze({
   coinDenom: 'XTC',
   coinMinimalDenom: 'axtc',
   coinDecimals: 18,
-  rest: 'https://api-testnet.xitcoin.org',
-  rpc: 'https://rpc-testnet.xitcoin.org',
+  rest: 'https://api-testnet.xitchain.com',
+  rpc: 'https://rpc-testnet.xitchain.com',
 });
 
 export function validAddress(value: string, prefix = 'xtc') {

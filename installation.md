@@ -85,14 +85,14 @@ transactions.
 
 After deployment, verify:
 
-- <https://explorer-testnet.xitcoin.org/>
-- <https://explorer-testnet.xitcoin.org/xitcoin-testnet>
-- <https://explorer-testnet.xitcoin.org/xitcoin-testnet/faucet>
-- <https://explorer-testnet.xitcoin.org/faucet-api/healthz>
-- <https://evm-explorer-testnet.xitcoin.org/>
-- <https://rpc-testnet.xitcoin.org/status>
-- <https://api-testnet.xitcoin.org/cosmos/base/tendermint/v1beta1/node_info>
-- <https://evm-rpc-testnet.xitcoin.org>
+- <https://explorer-testnet.xitchain.com/>
+- <https://explorer-testnet.xitchain.com/xitcoin-testnet>
+- <https://explorer-testnet.xitchain.com/xitcoin-testnet/faucet>
+- <https://explorer-testnet.xitchain.com/faucet-api/healthz>
+- <https://evm-explorer-testnet.xitchain.com/>
+- <https://rpc-testnet.xitchain.com/status>
+- <https://api-testnet.xitchain.com/cosmos/base/tendermint/v1beta1/node_info>
+- <https://evm-rpc-testnet.xitchain.com>
 
 Run the Blockscout read-only verification:
 

@@ -147,16 +147,16 @@ sleep 3
 
 HTML="$(
   curl -kfsS --max-time 15 \
-    --resolve explorer-testnet.xitcoin.org:443:127.0.0.1 \
-    https://explorer-testnet.xitcoin.org/
+    --resolve explorer-testnet.xitchain.com:443:127.0.0.1 \
+    https://explorer-testnet.xitchain.com/
 )"
 printf '%s' "$HTML" | grep -q '/assets/'
 test "$(readlink -f "$ACTIVE")" = "$RELEASE"
 
 HEALTH="$(
   curl -kfsS --max-time 15 \
-    --resolve explorer-testnet.xitcoin.org:443:127.0.0.1 \
-    https://explorer-testnet.xitcoin.org/faucet-api/healthz
+    --resolve explorer-testnet.xitchain.com:443:127.0.0.1 \
+    https://explorer-testnet.xitchain.com/faucet-api/healthz
 )"
 
 jq -e '
@@ -180,8 +180,8 @@ for route in \
 do
   code="$(
     curl -kso /dev/null -w '%{http_code}' --max-time 15 \
-      --resolve explorer-testnet.xitcoin.org:443:127.0.0.1 \
-      "https://explorer-testnet.xitcoin.org$route"
+      --resolve explorer-testnet.xitchain.com:443:127.0.0.1 \
+      "https://explorer-testnet.xitchain.com$route"
   )"
   test "$code" = '200'
   echo "[OK] HTTP 200: $route"

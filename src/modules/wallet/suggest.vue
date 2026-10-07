@@ -150,8 +150,8 @@ function initParamsForMetamask() {
         symbol: 'XTC',
         decimals: 18,
       },
-      rpcUrls: ['https://evm-rpc-testnet.xitcoin.org'],
-      blockExplorerUrls: ['https://evm-explorer-testnet.xitcoin.org'],
+      rpcUrls: ['https://evm-rpc-testnet.xitchain.com'],
+      blockExplorerUrls: ['https://evm-explorer-testnet.xitchain.com'],
     },
     null,
     '\t'

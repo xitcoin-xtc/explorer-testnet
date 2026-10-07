@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -Eeuo pipefail
 
-COSMOS_EXPLORER="${COSMOS_EXPLORER:-https://explorer-testnet.xitcoin.org}"
-COSMOS_RPC="${COSMOS_RPC:-https://rpc-testnet.xitcoin.org}"
+COSMOS_EXPLORER="${COSMOS_EXPLORER:-https://explorer-testnet.xitchain.com}"
+COSMOS_RPC="${COSMOS_RPC:-https://rpc-testnet.xitchain.com}"
 EXPECTED_COSMOS_CHAIN_ID="xitcoin-testnet-v2-1"
 FAUCET_TX="2ECF5641183254FC6734A13E2C51E78C22DD4F7BEDEAF861448F08C6897D3AC7"
 

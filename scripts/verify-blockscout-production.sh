@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -Eeuo pipefail
 
-EXPLORER_URL="${EXPLORER_URL:-https://evm-explorer-testnet.xitcoin.org}"
-RPC_URL="${RPC_URL:-https://evm-rpc-testnet.xitcoin.org}"
+EXPLORER_URL="${EXPLORER_URL:-https://evm-explorer-testnet.xitchain.com}"
+RPC_URL="${RPC_URL:-https://evm-rpc-testnet.xitchain.com}"
 EXPECTED_CHAIN_ID="0x18ae1"
 REFERENCE_TX="0x68a63b7033d911c768ea3717f2678813c018d4aaddbcf4746ac42f23c62b2597"
 
