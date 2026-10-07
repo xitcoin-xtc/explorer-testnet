@@ -50,7 +50,7 @@ jobs:
           NODE_OPTIONS: --max_old_space_size=4096
 
       - name: Audit locked dependencies
-        run: yarn audit
+        run: node scripts/audit-locked.mjs
 
       - name: Install Chromium
         run: yarn playwright install --with-deps chromium
