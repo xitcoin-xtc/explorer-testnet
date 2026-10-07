@@ -4,19 +4,19 @@
   "network_type": "testnet",
   "api": [
     {
-      "address": "https://api-testnet.xitcoin.org",
+      "address": "https://api-testnet.xitchain.com",
       "provider": "Xitcoin"
     }
   ],
   "rpc": [
     {
-      "address": "https://rpc-testnet.xitcoin.org",
+      "address": "https://rpc-testnet.xitchain.com",
       "provider": "Xitcoin"
     }
   ],
   "grpc": [
     {
-      "address": "grpc-testnet.xitcoin.org:443",
+      "address": "grpc-testnet.xitchain.com:443",
       "provider": "Xitcoin"
     }
   ],
@@ -27,14 +27,14 @@
   "min_tx_fee": "1",
   "addr_prefix": "xtc",
   "consensus_prefix": "xtcvalcons",
-  "logo": "https://explorer-testnet.xitcoin.org/assets/xitcoin-logo.png",
+  "logo": "https://explorer-testnet.xitchain.com/assets/xitcoin-logo.png",
   "assets": [
     {
       "base": "axtc",
       "symbol": "XTC",
       "exponent": "18",
       "coingecko_id": "",
-      "logo": "https://explorer-testnet.xitcoin.org/assets/xitcoin-logo.png"
+      "logo": "https://explorer-testnet.xitchain.com/assets/xitcoin-logo.png"
     }
   ],
   "features": [

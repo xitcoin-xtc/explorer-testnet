@@ -243,7 +243,7 @@ dayjs();
         <Sponsors v-if="showDiscord" />
         <div class="px-4 text-sm pt-2 text-base-content/60 pb-2 uppercase">{{ $t('module.links') }}</div>
         <a
-          href="https://xitcoin.org"
+          href="https://xitcoin.com"
           target="_blank"
           rel="noopener noreferrer"
           class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-active"

@@ -1,6 +1,6 @@
 # Xitcoin EVM explorer operations
 
-The public EVM explorer is <https://evm-explorer-testnet.xitcoin.org> on EVM chain
+The public EVM explorer is <https://evm-explorer-testnet.xitchain.com> on EVM chain
 `101089` (`0x18ae1`), using XTC with 18 decimals.
 
 On 13 September 2026, backend **11.2.8**, the corrected frontend and Stats passed

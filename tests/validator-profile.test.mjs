@@ -87,7 +87,7 @@ test('APR applies inflation, tax, commission and bonded ratio', () => {
 });
 test('official metadata is preserved, absent metadata has no invented fallback', () => {
   assert.equal(textValue(' Official description. '), 'Official description.');
-  assert.equal(websiteLink('https://xitcoin.org'), 'https://xitcoin.org');
+  assert.equal(websiteLink('https://xitcoin.com'), 'https://xitcoin.com');
   assert.equal(
     contactLink('contact@xitcoin.org'),
     'mailto:contact@xitcoin.org'

@@ -112,13 +112,13 @@ const reports = [];
         const request = route.request();
         const url = request.url();
         try {
-          if (url === 'https://rpc-testnet.xitcoin.org/status')
+          if (url === 'https://rpc-testnet.xitchain.com/status')
             return route.fulfill({
               json: { jsonrpc: '2.0', id: -1, result: rpcStatus },
             });
           if (
             url ===
-              'https://api-testnet.xitcoin.org/cosmos/tx/v1beta1/simulate' &&
+              'https://api-testnet.xitchain.com/cosmos/tx/v1beta1/simulate' &&
             request.method() === 'POST'
           ) {
             const input = request.postDataJSON();
@@ -159,7 +159,7 @@ const reports = [];
             record.blocked.push({ url, method: request.method() });
             return route.abort();
           }
-          if (url.startsWith('https://rpc-testnet.xitcoin.org')) {
+          if (url.startsWith('https://rpc-testnet.xitchain.com')) {
             const response = await route.fetch();
             return route.fulfill({
               response,
@@ -169,7 +169,7 @@ const reports = [];
               },
             });
           }
-          if (url.startsWith('https://api-testnet.xitcoin.org')) {
+          if (url.startsWith('https://api-testnet.xitchain.com')) {
             if (
               url.includes('/accounts/' + sender) &&
               scenario === 'bad-account'
@@ -280,8 +280,8 @@ const reports = [];
             'xitcoin-testnet-v2-1'
           );
           for (const [key, value] of Object.entries({
-            'data-rest': 'https://api-testnet.xitcoin.org',
-            'data-rpc': 'https://rpc-testnet.xitcoin.org',
+            'data-rest': 'https://api-testnet.xitchain.com',
+            'data-rpc': 'https://rpc-testnet.xitchain.com',
             'data-denom': 'axtc',
             'data-decimals': '18',
           }))

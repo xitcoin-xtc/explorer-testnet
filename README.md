@@ -4,8 +4,8 @@ Official Cosmos and EVM explorers for the Xitcoin Public Testnet. The Cosmos
 interface is built from the standard [Ping Explorer](https://github.com/ping-pub/explorer)
 source; EVM activity is indexed by Blockscout.
 
-- Cosmos explorer: <https://explorer-testnet.xitcoin.org>
-- EVM explorer: <https://evm-explorer-testnet.xitcoin.org>
+- Cosmos explorer: <https://explorer-testnet.xitchain.com>
+- EVM explorer: <https://evm-explorer-testnet.xitchain.com>
 - Cosmos chain ID: `xitcoin-testnet-v2-1`
 - EVM chain ID: `101089` (`0x18ae1`)
 - Native asset: XTC
@@ -64,15 +64,15 @@ Operational references:
 
 | Service | Endpoint |
 |---|---|
-| Cosmos explorer | `https://explorer-testnet.xitcoin.org` |
-| EVM explorer | `https://evm-explorer-testnet.xitcoin.org` |
-| Explorer faucet | `https://explorer-testnet.xitcoin.org/xitcoin-testnet/faucet` |
-| Faucet health | `https://explorer-testnet.xitcoin.org/faucet-api/healthz` |
-| Standalone faucet | `https://faucet-testnet.xitcoin.org` |
-| CometBFT RPC | `https://rpc-testnet.xitcoin.org` |
-| Cosmos REST API | `https://api-testnet.xitcoin.org` |
-| gRPC | `grpc-testnet.xitcoin.org:443` |
-| EVM JSON-RPC | `https://evm-rpc-testnet.xitcoin.org` |
+| Cosmos explorer | `https://explorer-testnet.xitchain.com` |
+| EVM explorer | `https://evm-explorer-testnet.xitchain.com` |
+| Explorer faucet | `https://explorer-testnet.xitchain.com/xitcoin-testnet/faucet` |
+| Faucet health | `https://explorer-testnet.xitchain.com/faucet-api/healthz` |
+| Standalone faucet | `https://faucet-testnet.xitchain.com` |
+| CometBFT RPC | `https://rpc-testnet.xitchain.com` |
+| Cosmos REST API | `https://api-testnet.xitchain.com` |
+| gRPC | `grpc-testnet.xitchain.com:443` |
+| EVM JSON-RPC | `https://evm-rpc-testnet.xitchain.com` |
 
 ## Production deployment
 
