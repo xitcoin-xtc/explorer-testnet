@@ -3,13 +3,7 @@
 // An entry is allowed only when no patched version exists; it expires, so it is looked at again.
 import { spawnSync } from 'node:child_process';
 
-const ACCEPTED = {
-  1240992: {
-    module: 'braces',
-    reason: 'No patched version is published (affects <=3.0.3, the latest). Build-time only: file globbing inside unplugin-auto-import and unplugin-vue-components; not part of the browser bundle.',
-    reviewBy: '2026-12-31',
-  },
-};
+const ACCEPTED = {};
 
 const run = spawnSync('yarn', ['audit', '--json'], { encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 });
 const advisories = new Map();
