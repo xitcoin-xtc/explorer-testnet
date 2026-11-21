@@ -8,8 +8,8 @@ targeted public acceptance. The active project is
 `xitcoin-upgrade-20260913t114659z`; backend/frontend/Stats use loopback
 15100/15101/15002 behind the existing HTTPS origin. Stats is exposed through
 `/stats-service/`. See the authoritative
-[deployment inventory and recovery procedure](https://github.com/xitcoin-org/explorer-evm-testnet/blob/d33eb171032137008299bf00b63db63efb4bdc2e/docs/DEPLOYMENT.md)
-and [Stats timing](https://github.com/xitcoin-org/explorer-evm-testnet/blob/d33eb171032137008299bf00b63db63efb4bdc2e/docs/STATS.md).
+[deployment inventory and recovery procedure](https://github.com/xitcoin-xtc/explorer-evm-testnet/blob/d33eb171032137008299bf00b63db63efb4bdc2e/docs/DEPLOYMENT.md)
+and [Stats timing](https://github.com/xitcoin-xtc/explorer-evm-testnet/blob/d33eb171032137008299bf00b63db63efb4bdc2e/docs/STATS.md).
 
 The old `xitcoin-blockscout-canonical` project and the checked-in override are
 historical configuration references. Do not recreate the old backend or replay
