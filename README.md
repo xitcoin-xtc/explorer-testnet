@@ -15,8 +15,9 @@ source; EVM activity is indexed by Blockscout.
 - Faucet: 10 XTC per accepted request
 
 The public-facing network name is **Xitcoin Public Testnet**. The Cosmos chain
-ID above is its technical identifier. The canonical public documentation is the
-[Xitcoin Guide](https://xitcoin.gitbook.io/guide).
+ID above is its technical identifier. The chain itself is called Xitchain; the
+canonical public documentation is on [xitcoin.com](https://xitcoin.com/docs/)
+(network details: <https://xitcoin.com/chain/>).
 
 ## Upstream baseline
 
@@ -98,8 +99,8 @@ Cosmos explorer, faucet, RPC and Blockscout instance.
 - Never commit recovery phrases, private keys, keyring passwords or credentials.
 - Testnet XTC has no monetary value.
 - Verify the live RPC chain ID before signing or broadcasting.
-- Report security issues through the process documented in the
-  [Xitcoin Guide](https://xitcoin.gitbook.io/guide/security/responsible-disclosure).
+- Report security issues privately through GitHub Private Vulnerability Reporting,
+  as described in [Report a problem](https://xitcoin.com/docs/#docs.report).
 
 ## License and attribution
 

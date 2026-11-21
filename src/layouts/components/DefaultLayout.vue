@@ -261,7 +261,7 @@ dayjs();
           <div class="text-base capitalize flex-1 text-base-content/70">Discord</div>
         </a>
         <a
-          href="https://xitcoin.gitbook.io/guide"
+          href="https://xitcoin.com/docs/"
           target="_blank"
           rel="noopener noreferrer"
           class="py-2 px-4 flex items-center rounded-lg cursor-pointer hover:bg-active"

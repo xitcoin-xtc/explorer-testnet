@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -Eeuo pipefail
 
-REPO='https://github.com/xitcoin-org/explorer-testnet.git'
+REPO='https://github.com/xitcoin-xtc/explorer-testnet.git'
 EXPECTED_COMMIT="${EXPECTED_COMMIT:-}"
 RELEASES='/var/www/xitcoin-testnet-explorer-releases'
 STAMP="$(date -u +%Y%m%dT%H%M%SZ)"
